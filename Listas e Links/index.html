@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            background-color: rgb(215, 149, 228);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Links</h1>
+    <h2>Links externos:</h2>
+    <p>Te leva para outro site, a tag é A e tem uma parte dele destinado a por o link (do lado de dentro da tag, entre os As, coloca o nome que vai aparecer para que a pessoa clique no link):</p>
+
+    <p><a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf">Github com apostilas de HTML e CSS</a></p>
+
+    <p>Por ser um link externo, o indicado é abrir em outra aba do nav, para isso, colocar :  <strong>target="_blank" rel="external"</strong> após o link: </p>
+
+    <p><a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf" target="_blank" rel="external">Github com apostilas de HTML e CSS</a></p>
+
+    <p><strong>OBS:</strong> target="_blank" - Abre em nova aba
+    <br>
+    target="_self" - Abre na mesma aba
+    </p>
+
+    <h2>Links internos:</h2>
+    <p>Leva para coisas dentro do site, se apertar CTRL + ESPAÇO, as paginas já criadas (todas com .html no final) vão aparecer. A tag é a mesmas dos links externos</p>
+
+    <a href="pag02.html">Ir para a segunda pag do site</a>
+
+    <h3>Em uma pagina de diretório diferente:</h3>
+    <p>Um link para uma pagina do site mas que esta em outra pasta. Tem q indicar a pasta (nome da pasta/)antes de por o nome da pagina contida nela)<br>
+    Por exemplo:</p>
+
+    <a href="Nova pasta/pag003.html">Ir para a terceira pag do site</a> <!--Nome da pasta indicado antes do nome da pag-->
+
+    <p><strong>OBS: Para indicar o caminho das pastas:
+        <br>
+        ./ -> pasta atual
+        <br>
+        ../ -> Voltar para a pasta anterior a essa
+        <br>
+        (Exemplo disso na pag 003)
+    </strong></p>
+
+    <h2>Links para Download:</h2>
+
+    <p>Arquivos como pdf,zip,etc</p>
+
+    <p><a href="livro/meulivro.pdf" download="meulivro.pdf" target="_blank">Pagina em PDF para baixar</a></p>
+    
+    <p>Para abrir o pdf usa so o href, mas se quiser que ele automaticamente seja baixado, por a parte de DOWNLOAD. Para ZIP é a mesma coisa</p>
+</body>
+</html>
