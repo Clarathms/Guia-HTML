@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<h1>Para colocar um video baixado:</h1>
+
+<video src="videos/meu-video.mp4" width="500" controls autoplay loop></video>
+
+<p> ou assim: Jeito mais indicado </p>
+
+<video width="500" controls autoplay>
+
+    <source srcset="videos/meu-video.mp4" type="video/mp4">
+   <source srcset="videos/meu-video.m4v" type="video/m4v">
+   
+   <p>Seu navegador não possui compatibilidade com nenhum formato de video</p>
+
+   
+</video>
+
+<p>Dessa ultima forma, com varios tipos de arquivo do mesmo video, é mais garantido que os usuarios poderâo acessar. A ordem de carregar vai de cima p baixo</p>
+
+<h1>Videos Externos:</h1>
+
+<p>entrar em sites como youtube (vimeo tambem é indicado) e apertar em --- Compartilhar > Incorporar > copiar o codigo dado e Ctrl V no codigo do site</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4y2KyoP3M44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+
+</body>
+</html>
